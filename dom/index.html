@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Проверка Email</title>
+    <style>
+        .error {
+            color: red;
+            display: none;
+        }
+
+        .invalid {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="Form">
+        <input type="text" id="email" placeholder="Введите email">
+        <button type="submit">Проверка</button>
+        <span id="error" class="error">Неверный email</span>
+
+    </form>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
