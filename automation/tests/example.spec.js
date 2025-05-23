@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 const BASE_URL = 'https://www.voxys.ru/';
 
-// Тест на кликабельность логотипа
+// Тест на кликабельность логотипа 
 test('ATC-001', async ({ page }) => {
   await page.goto(BASE_URL, { waitUntil: 'domcontentloaded' });
   // Аргумент после BASE_URL нужен так как сайт постоянно подгружает данные и 
